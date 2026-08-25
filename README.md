@@ -100,39 +100,40 @@ Uploaded medical documents are processed by Google Gemini to extract structured 
 ```
   
 ## Project Structure
-
-patient-document-management/
-│
-├── backend/
-│   ├── app/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── schemas/
-│   │   ├── services/
-│   │   ├── database.py
-│   │   └── main.py
-│   │
-│   ├── requirements.txt
-│   └── .env.example
-│
-├── frontend/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   │   ├── admin/
-│   │   │   └── documents/
-│   │   ├── pages/
-│   │   │   ├── admin/
-│   │   │   └── patient/
-│   │   ├── services/
-│   │   ├── types/
-│   │   ├── App.tsx
-│   │   ├── App.css
-│   │   └── main.tsx
-│   │
-│   ├── package.json
-│   ├── package-lock.json
-│   └── .env.example
-│
-├── .gitignore
-└── README.md
+```
+                        patient-document-management/
+                        │
+                        ├── backend/
+                        │   ├── app/
+                        │   │   ├── models/
+                        │   │   ├── routes/
+                        │   │   ├── schemas/
+                        │   │   ├── services/
+                        │   │   ├── database.py
+                        │   │   └── main.py
+                        │   │
+                        │   ├── requirements.txt
+                        │   └── .env.example
+                        │
+                        ├── frontend/
+                        │   ├── src/
+                        │   │   ├── assets/
+                        │   │   ├── components/
+                        │   │   │   ├── admin/
+                        │   │   │   └── documents/
+                        │   │   ├── pages/
+                        │   │   │   ├── admin/
+                        │   │   │   └── patient/
+                        │   │   ├── services/
+                        │   │   ├── types/
+                        │   │   ├── App.tsx
+                        │   │   ├── App.css
+                        │   │   └── main.tsx
+                        │   │
+                        │   ├── package.json
+                        │   ├── package-lock.json
+                        │   └── .env.example
+                        │
+                        ├── .gitignore
+                        └── README.md
+```
